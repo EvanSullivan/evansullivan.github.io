@@ -108,11 +108,30 @@ p {
     background-image: linear-gradient(#FFE2BF, #E3BE91);
 }
 
+/*desktop scaling*/
+@media only screen and (max-width : 736px) {
+    
+    .workBlock {
+        text-align: center;
+    }
+}
+
 /*mobile formatting*/
-@media only screen and (max-width: 736px) and (orientation: portrait) {
+@media only screen and (max-device-width : 736px) and (orientation: portrait) {
     
     html, body {
-        font-size: 1.2em;
+        font-size: 2em;
+    }
+    
+    .workBlock {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width : 736px) and (orientation: landscape) {
+    
+    html, body {
+        font-size: 1.4em;
     }
     
     .workBlock {
