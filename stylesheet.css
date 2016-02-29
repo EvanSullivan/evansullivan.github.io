@@ -32,7 +32,6 @@ img {
     min-height: 100%;
     margin: auto;
     padding-top: 6em;
-    padding-bottom: 3em;
 }
 
 .white {
@@ -102,6 +101,10 @@ h4 {
 
 .headerBar h3 {
     opacity: 1.0;
+}
+
+.footerBar {
+    border-top: 1px solid #333333;
 }
 
 .centeringBlock {
