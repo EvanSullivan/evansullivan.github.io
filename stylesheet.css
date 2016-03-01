@@ -104,6 +104,7 @@ h4 {
 }
 
 .footerBar {
+    margin-top: 2em;
     border-top: 1px solid #333333;
 }
 
@@ -197,16 +198,12 @@ h4 {
 /*mobile formatting*/
 @media only screen and (max-device-width : 736px) {
     
-    html, body {
-/*        font-size: 1.4em;*/
-    }
-    
     h4 {
         text-align: center;
     }
     
     .headerBar {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     
     .subBlock {
@@ -221,11 +218,8 @@ h4 {
         float: none;
         text-align: center;
     }
-}
-
-@media only screen and (max-device-width : 736px) and (orientation: landscape) {
     
-    html, body {
-/*        font-size: 1.4em;*/
+    .footerBar {
+        padding-bottom: 0.5em;
     }
 }
