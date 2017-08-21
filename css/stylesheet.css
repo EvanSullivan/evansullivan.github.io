@@ -90,7 +90,7 @@ h4 {
 
 .headerBar {
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
     background: white;
     opacity: 0.95;
     text-align: center;
@@ -178,16 +178,16 @@ h4 {
 
 /*desktop scaling*/
 @media only screen and (max-width : 736px) {
-    
+
     h4 {
         text-align: center;
     }
-    
+
     .subBlock.left {
         width: 100%;
         padding-bottom: 0;
     }
-    
+
     .subBlock.right {
         width: 100%;
         float: none;
@@ -197,28 +197,28 @@ h4 {
 
 /*mobile formatting*/
 @media only screen and (max-device-width : 736px) {
-    
+
     h4 {
         text-align: center;
     }
-    
+
     .headerBar {
         font-size: 0.6em;
     }
-    
+
     .subBlock {
         width: 100%;
     }
-    
+
     .subBlock.left {
         padding-bottom: 0;
     }
-    
+
     .subBlock.right {
         float: none;
         text-align: center;
     }
-    
+
     .footerBar {
         padding-bottom: 0.5em;
     }
