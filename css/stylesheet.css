@@ -203,7 +203,7 @@ h4 {
         float: none;
         text-align: center;
     }
-    
+
     #profilePic {
         max-width: auto;
         float: none;
@@ -220,9 +220,9 @@ h4 {
     .headerBar {
         font-size: 0.5em;
     }
-    
+
     .container {
-        padding-top: 2em;
+        padding-top: none;
     }
 
     .subBlock {
@@ -237,15 +237,15 @@ h4 {
         float: none;
         text-align: center;
     }
-    
+
     .headerBar {
         position: relative;
     }
-    
+
     .footerBar {
         padding-bottom: 0.5em;
     }
-    
+
     #profilePic {
         max-width: auto;
         float: none;
