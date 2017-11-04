@@ -59,6 +59,10 @@ img {
     display: inline;
 }
 
+.left-aligned {
+    text-align: left;
+}
+
 .centered {
     text-align: center;
 }
@@ -82,8 +86,6 @@ h3 {
     font-size: 0.65em;
     letter-spacing: 0.1em;
     margin-top: 1.6em;
-    margin-right: 1em;
-    margin-left: 1em;
     text-align: center;
 }
 
@@ -106,6 +108,11 @@ h4 {
 
 .headerBar h3 {
     opacity: 1.0;
+}
+
+.headerMargins {
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .footerBar {
@@ -168,6 +175,11 @@ h4 {
 #profilePic {
     max-width: 8em;
     float: right;
+}
+
+#honda{
+    background: #A12B31;
+    background-image: linear-gradient(#A12B31, #7A151A);
 }
 
 #sunRisk {
