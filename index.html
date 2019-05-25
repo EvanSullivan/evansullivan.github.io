@@ -1,139 +1,223 @@
----
-layout: homepage
----
+<!DOCTYPE html>
+<html>
 
-<a id = "philosophy"></a>
-<div class = "centeringBlock">
-    <div class = "subBlock left">
-        <h1>Evan Sullivan</h1>
-        <h2 class = "subtitle">Software Designer & Developer</h2>
-    </div>
-    <div class = "subBlock right">
-        <img id = "profilePic" src = "images/Evan.jpg">
-    </div>
-</div>
-<div class ="centeringBlock">
-    <p>I enjoy helping to make life better for others by building useful, pleasant, and easy-to-use software.</p>
-    <!-- <p>Most recently I've been working with <em>Honda Reserch & Development</em> to improve the design of in-car infotainment interfaces for next-generation vehicles.</p> -->
-    <p>My work to date helps people interact more naturally with their car, prevent skin cancer, get tech help, and enjoy absurd fun. Learn more about my past work with the selected projects below.</p>
-</div>
-<div class = "spacerDiv"></div>
-<!--<div class = "centeringBlock centered">
-    <h3>View my latest writing:</h3>
-    <a href = "https://medium.com/interface-labs/controlling-self-driving-teslas-with-maps-apps-c9b4f23133a3">
-        <h4 class = "blue">Controlling Self-Driving Teslas with Maps Apps ></h4>
-    </a>
-</div>-->
-<!-- <div class ="centeringBlock">
-    <a id = "notableWorks"></a>
-    <div class= "dividerBar"></div>
-    <h3>NOTABLE WORKS</h3>
-</div> -->
-<div class = "workBlock" id = "honda">
-    <a id = "notableWorks"></a>
-    <div class = "dividerBar whiteBG"></div>
-    <h3 class = "white">NOTABLE WORKS:</h3>
-    <div class = "centeringBlock">
-        <a href = "http://sunriskapp.com">
-            <div class = "subBlock left">
-                <h1 class = "white">Honda R&D</h1>
-                <h4 class = "white date">2017</h4>
-                <p class = "white">The focus of my work at Honda is creating new in-vehicle interfaces that make sense in the context of autonomous driving.<br /> I wish I could show the work I've done at Honda, but given the nature of R&D, it's all got to be kept under wraps!</p>
-                <!-- <div class = "dividerBar whiteBG"></div> -->
-                <p class = "white"><em>My responsibilities span the UX design process, from ideation, to wireframing, to interactive prototyping.</em></p>
-                <div class = "dividerBar whiteBG"></div>
-                <h4 class = "yellow">TOP-SECRET...</h4>
-            </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/Honda.png" />
-            </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="I define the success of a product as its ability to serve real human needs. To achieve this end, a product must embody both aesthetic beauty, as well as functional excellence. By applying principles of both graphic and human-centered design, I work to create products that are desirable and useful.">
+    <link type="text/css" href="stylesheet.css" rel="stylesheet">
+    <link type="text/css" href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <title>Evan Sullivan - Interface Designer</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/Person">
+    <div class="headerBar">
+        <a href="html, body" class="button headerMargins">
+            <h3 class="inline">E.S.</h3>
+        </a>
+        |
+        <a href="#notableWorks" class="button headerMargins">
+            <h3 class="inline">NOTABLE WORKS</h3>
+        </a>
+        -
+        <a href="#contact" class="button headerMargins">
+            <h3 class="inline blue">GET IN TOUCH</h3>
+        </a>
+        |
+        <a href="/blog.html" class="button headerMargins"">
+            <h3 class="inline">BLOG</h3>
         </a>
     </div>
-</div>
-<div class = "workBlock" id = "sunRisk">
-    <div class = "centeringBlock">
-        <a href = "http://sunriskapp.com">
-            <div class = "subBlock left">
-                <h1 class = "white">Sun Risk</h1>
-                <h4 class = "white date">2015</h4>
-                <p class = "white">Sun Risk is an app for iOS and Apple&nbsp;Watch which uses dynamic color and typography to inform users of their risk of skin damage from the sun.</p>
-                <!-- <div class = "dividerBar whiteBG"></div> -->
-                <p class = "white"><em>I designed and implemented both the iOS and Apple&nbsp;Watch apps using Swift and Xcode. I also built the marketing website.</em></p>
-                <div class = "dividerBar whiteBG"></div>
-                <h4 class = "yellow">VIEW WEBSITE ></h4>
+    <div class="container">
+        <a id="philosophy"></a>
+        <div class="centeringBlock">
+            <div class="subBlock left">
+                <h1>Evan Sullivan</h1>
+                <h2 class="subtitle">Software Designer & Developer</h2>
             </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/SunRisk.png">
+            <div class="subBlock right">
+                <img id="profilePic" src="images/Evan.jpg">
             </div>
-        </a>
+        </div>
+        <div class="centeringBlock">
+            <p>I enjoy helping to make life better for others by building useful, pleasant, and easy-to-use software.
+            </p>
+            <!-- <p>Most recently I've been working with <em>Honda Reserch & Development</em> to improve the design of in-car infotainment interfaces for next-generation vehicles.</p> -->
+            <p>My work to date helps people interact more naturally with their car, prevent skin cancer, get tech help,
+                and
+                enjoy absurd fun. Learn more about my past work with the selected projects below.</p>
+        </div>
+        <div class="spacerDiv"></div>
+        <!--<div class = "centeringBlock centered">
+                    <h3>View my latest writing:</h3>
+                    <a href = "https://medium.com/interface-labs/controlling-self-driving-teslas-with-maps-apps-c9b4f23133a3">
+                        <h4 class = "blue">Controlling Self-Driving Teslas with Maps Apps ></h4>
+                    </a>
+                </div>-->
+        <!-- <div class ="centeringBlock">
+                    <a id = "notableWorks"></a>
+                    <div class= "dividerBar"></div>
+                    <h3>NOTABLE WORKS</h3>
+                </div> -->
+        <div class="workBlock" id="honda">
+            <a id="notableWorks"></a>
+            <div class="dividerBar whiteBG"></div>
+            <h3 class="white">NOTABLE WORKS:</h3>
+            <div class="centeringBlock">
+                <a href="http://sunriskapp.com">
+                    <div class="subBlock left">
+                        <h1 class="white">Honda R&D</h1>
+                        <h4 class="white date">2017</h4>
+                        <p class="white">The focus of my work at Honda is creating new in-vehicle interfaces that make
+                            sense
+                            in the context of autonomous driving.<br /> I wish I could show the work I've done at Honda,
+                            but
+                            given the nature of R&D, it's all got to be kept under wraps!</p>
+                        <!-- <div class = "dividerBar whiteBG"></div> -->
+                        <p class="white"><em>My responsibilities span the UX design process, from ideation, to
+                                wireframing,
+                                to interactive prototyping.</em></p>
+
+                        <div class="dividerBar whiteBG"></div>
+
+                        <h4 class="yellow">TOP-SECRET...</h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/Honda.png" />
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="workBlock" id="sunRisk">
+            <div class="centeringBlock">
+                <a href="http://sunriskapp.com">
+                    <div class="subBlock left">
+                        <h1 class="white">Sun Risk</h1>
+                        <h4 class="white date">2015</h4>
+                        <p class="white">Sun Risk is an app for iOS and Apple&nbsp;Watch which uses dynamic color and
+                            typography to inform users of their risk of skin damage from the sun.</p>
+                        <!-- <div class = "dividerBar whiteBG"></div> -->
+                        <p class="white"><em>I designed and implemented both the iOS and Apple&nbsp;Watch apps using
+                                Swift
+                                and Xcode. I also built the marketing website.</em></p>
+                        <div class="dividerBar whiteBG"></div>
+                        <h4 class="yellow">VIEW WEBSITE ></h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/SunRisk.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="workBlock" id="UCLA">
+            <div class="centeringBlock">
+                <a href="https://medium.com/interface-labs/ucla-service-now-redesign-b84239dece09#.w1fawzrjo">
+                    <!-- <a href = "UCLA.html"> -->
+                    <div class="subBlock left">
+                        <h1 class="white">UCLA IT Help&nbsp;Site</h1>
+                        <h4 class="white date">2015</h4>
+                        <p class="white">The UCLA&nbsp;Service-Now website allows users to submit IT help requests with
+                            a
+                            quick and intuitive menu system.</p>
+                        <p class="white"><em>I designed the new front-page, and pitched it to management.<br /> I also
+                                implemented the HTML, CSS, and JavaScript for the front page.</em></p>
+                        <div class="dividerBar whiteBG"></div>
+                        <h4 class="yellow">VIEW ON MEDIUM ></h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/UCLA.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="workBlock" id="quick">
+            <div class="centeringBlock">
+                <a href="https://medium.com/interface-labs/quick-press-a-f28a0f95f5ac#.4zhxzei74">
+                    <div class="subBlock left">
+                        <h1 class="navyBlue">Quick, Press&nbsp;A!</h1>
+                        <h4 class="navyBlue date">2014</h4>
+                        <p class="navyBlue">Quick, Press A! is a satirical iOS game in which players must mash an
+                            oversized
+                            ‘A’ button fast enough to stay alive.</p>
+                        <p class="navyBlue"><em>I designed and produced all art assets for the game. I also implemented
+                                the
+                                UI using C# in Unity.</em></p>
+                        <div class="navyBlue dividerBar"></div>
+                        <h4 class="blue">VIEW ON MEDIUM ></h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/Quick.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="workBlock" id="graphicDesign">
+            <div class="centeringBlock">
+                <a href="https://medium.com/@evan_sullivan/visual-media-d21836c0ecc2#.is6h4l595">
+                    <div class="subBlock left">
+                        <h1 class="navyBlue">Graphic Design</h1>
+                        <h4 class="navyBlue date">2014-2015</h4>
+                        <p class="navyBlue">Graphic design work ranging from text-art posters to web advertisements.</p>
+                        <p class="navyBlue"><em>I began my design career doing freelance graphic work, before I focused
+                                in
+                                on interface design.</em></p>
+                        <div class="navyBlue dividerBar"></div>
+                        <h4 class="blue">VIEW ON MEDIUM ></h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/GraphicDesign.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="workBlock" id="photography">
+            <div class="centeringBlock">
+                <a href="https://www.instagram.com/evan_sullivan/">
+                    <div class="subBlock left">
+                        <h1 class="white">Photography</h1>
+                        <h4 class="white date">2009-present</h4>
+                        <p class="white">My iPhone photography.</p>
+                        <p class="white"><em>Pictures taken simply for others to enjoy.</em></p>
+                        <div class="dividerBar whiteBG"></div>
+                        <h4 class="yellow">VIEW ON INSTAGRAM ></h4>
+                    </div>
+                    <div class="subBlock right">
+                        <img class="fullWidth" src="images/Photography.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="centeringBlock centered">
+            <a id="contact"></a>
+            <h3>GET IN TOUCH:</h3>
+            <p>Need help with a software design project? <br> Just want to chat? <br> Either way, I'd be happy to hear
+                from
+                you! <br> Drop me a line anytime. <br> :)</p>
+            <div class="subBlock left">
+                <h3>
+                    E-MAIL:
+                    </h4>
+                    <a href="mailto: evan.t.sullivan@gmail.com">
+                        <p class="blue">evan.t.sullivan@gmail.com</p>
+                    </a>
+            </div>
+            <div class="subBlock left">
+                <h3>
+                    TWITTER:
+                </h3>
+                <a href="https://twitter.com/evan_sullivan">
+                    <p class="blue">@Evan_Sullivan</p>
+                </a>
+            </div>
+        </div>
+        <div class="footerBar">
+            <h3>E.S. TWENTY SEVENTEEN</h3>
+        </div>
     </div>
-</div>
-<div class = "workBlock" id = "UCLA">
-    <div class = "centeringBlock">
-        <a href = "https://medium.com/interface-labs/ucla-service-now-redesign-b84239dece09#.w1fawzrjo">
-        <!-- <a href = "UCLA.html"> -->
-            <div class = "subBlock left">
-                <h1 class = "white">UCLA IT Help&nbsp;Site</h1>
-                <h4 class = "white date">2015</h4>
-                <p class = "white">The UCLA&nbsp;Service-Now website allows users to submit IT help requests with a quick and intuitive menu system.</p>
-                <p class = "white"><em>I designed the new front-page, and pitched it to management.<br /> I also implemented the HTML, CSS, and JavaScript for the front page.</em></p>
-                <div class = "dividerBar whiteBG"></div>
-                <h4 class = "yellow">VIEW ON MEDIUM ></h4>
-            </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/UCLA.png">
-            </div>
-        </a>
-    </div>
-</div>
-<div class = "workBlock" id = "quick">
-    <div class = "centeringBlock">
-        <a href= "https://medium.com/interface-labs/quick-press-a-f28a0f95f5ac#.4zhxzei74">
-            <div class = "subBlock left">
-                <h1 class = "navyBlue">Quick, Press&nbsp;A!</h1>
-                <h4 class = "navyBlue date">2014</h4>
-                <p class = "navyBlue">Quick, Press A! is a satirical iOS game in which players must mash an oversized ‘A’ button fast enough to stay alive.</p>
-                <p class = "navyBlue"><em>I designed and produced all art assets for the game. I also implemented the UI using C# in Unity.</em></p>
-                <div class = "navyBlue dividerBar"></div>
-                <h4 class = "blue">VIEW ON MEDIUM ></h4>
-            </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/Quick.png">
-            </div>
-        </a>
-    </div>
-</div>
-<div class = "workBlock" id = "graphicDesign">
-    <div class = "centeringBlock">
-        <a href = "https://medium.com/@evan_sullivan/visual-media-d21836c0ecc2#.is6h4l595">
-            <div class = "subBlock left">
-                <h1 class = "navyBlue">Graphic Design</h1>
-                <h4 class = "navyBlue date">2014-2015</h4>
-                <p class = "navyBlue">Graphic design work ranging from text-art posters to web advertisements.</p>
-                <p class = "navyBlue"><em>I began my design career doing freelance graphic work, before I focused in on interface design.</em></p>
-                <div class = "navyBlue dividerBar"></div>
-                <h4 class = "blue">VIEW ON MEDIUM ></h4>
-            </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/GraphicDesign.png">
-            </div>
-            </a>
-    </div>
-</div>
-<div class = "workBlock" id = "photography">
-    <div class = "centeringBlock">
-        <a href = "https://www.instagram.com/evan_sullivan/">
-            <div class = "subBlock left">
-                <h1 class = "white">Photography</h1>
-                <h4 class = "white date">2009-present</h4>
-                <p class = "white">My iPhone photography.</p>
-                <p class = "white"><em>Pictures taken simply for others to enjoy.</em></p>
-                <div class = "dividerBar whiteBG"></div>
-                <h4 class = "yellow">VIEW ON INSTAGRAM ></h4>
-            </div>
-            <div class = "subBlock right">
-                <img class = "fullWidth" src = "images/Photography.png">
-            </div>
-        </a>
-    </div>
-</div>
+</body>
+
+</html>

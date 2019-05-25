@@ -1,0 +1,292 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1.4em;
+    font-family: 'Crimson Text', 'Times New Roman', serif;
+    font-size: 120%;
+    color: #222222;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:link, a:visited, a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    max-width: 14em;
+}
+
+.fullWidth {
+    max-width: 100%;
+}
+
+.container {
+    min-height: 100%;
+    margin: auto;
+    padding-top: 6em;
+}
+
+.white {
+    color: white;
+    /*text-shadow: 0px 4px 18px rgba(0,0,0, 0.25);*/
+}
+
+.dividerBar.whiteBG {
+    background-color: white;
+}
+
+.yellow {
+    color: #F5E558;
+}
+
+.blue {
+    color: #0C4D9B;
+}
+
+.navyBlue {
+    color: #000346;
+}
+
+.inline {
+    display: inline;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.6em;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 3.2em;
+}
+
+h3 {
+    font-size: 0.65em;
+    letter-spacing: 0.1em;
+    margin-top: 1.6em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 0.8em;
+    letter-spacing: 0.14em;
+    font-style: italic;
+}
+
+.headerBar {
+    width: 100%;
+    position: fixed;
+    background: white;
+    opacity: 0.95;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid #333333;
+}
+
+.headerBar h3 {
+    opacity: 1.0;
+}
+
+.headerMargins {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.footerBar {
+    margin-top: 2em;
+    padding-bottom: 0.1em;
+    border-top: 1px solid #333333;
+}
+
+.centeringBlock {
+    max-width: 30em;
+    margin: auto;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+
+.workBlock {
+    margin: auto;
+}
+
+.workBlock p {
+    margin-top: 0;
+}
+
+.subBlock {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.subBlock.left {
+    width: 49%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.subBlock.right {
+    width: 49%;
+}
+
+.dividerBar {
+    height: 1px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.spacerDiv {
+  height: 2em;
+}
+
+.subtitle {
+    margin-bottom: 0;
+}
+
+.date {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#profilePic {
+    max-width: 8em;
+    float: right;
+}
+
+#honda{
+    background: #A12B31;
+    background-image: linear-gradient(#A12B31, #7A151A);
+}
+
+#sunRisk {
+    background: #293952;
+    background-image: linear-gradient(#293952, #001433);
+}
+
+#UCLA {
+    background: #7DB8D1;
+    background-image: linear-gradient(#7DB8D1, #498DB8);
+}
+
+#quick {
+    background: #FFE999;
+    background-image: linear-gradient(#FFE999, #F0D160);
+}
+
+#graphicDesign {
+    background: #FFE2BF;
+    background-image: linear-gradient(#FFE2BF, #E3BE91);
+}
+
+#photography {
+    background: #222222;
+    background-image: linear-gradient(#626E7A, #323D47);
+}
+
+/*desktop scaling*/
+@media only screen and (max-width : 736px) {
+
+    h1 {
+        font-size: 2.0em;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+
+    .container {
+        padding-top: 4em;
+    }
+
+    .subBlock.left {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .subBlock.right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #profilePic {
+        margin-top: 2em;
+        max-width: auto;
+        float: none;
+    }
+}
+
+/*mobile formatting*/
+@media only screen and (max-device-width : 736px) {
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .headerBar {
+        font-size: 0.5em;
+    }
+
+    .container {
+        padding-top: 0;
+    }
+
+    .subBlock {
+        width: 100%;
+    }
+
+    .subBlock.left {
+        padding-bottom: 0;
+    }
+
+    .subBlock.right {
+        float: none;
+        text-align: center;
+    }
+
+    .headerBar {
+        position: relative;
+    }
+
+    .footerBar {
+        padding-bottom: 0.5em;
+    }
+
+    #profilePic {
+        margin-top: 2em;
+        max-width: auto;
+        float: none;
+    }
+}
