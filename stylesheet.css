@@ -181,6 +181,14 @@ h4 {
     margin-bottom: 3.2em;
 }
 
+.noTopMargin {
+    margin-top: 0;
+}
+
+.scrollWithPage {
+    position: relative;
+}
+
 #profilePic {
     max-width: 8em;
     float: right;
