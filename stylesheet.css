@@ -194,14 +194,19 @@ h4 {
     float: right;
 }
 
-#honda{
+#hondaLink{
+    background: rgb(23, 32, 43);
+    background-image: linear-gradient(#283A54, #00132E);
+}
+
+#hondaRD{
     background: #A12B31;
     background-image: linear-gradient(#A12B31, #7A151A);
 }
 
 #sunRisk {
     background: #293952;
-    background-image: linear-gradient(#293952, #001433);
+    background-image: linear-gradient(#FF711F, #C35717);
 }
 
 #UCLA {
