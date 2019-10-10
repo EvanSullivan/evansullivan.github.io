@@ -137,10 +137,6 @@ h4 {
     margin: auto;
 }
 
-/* .workBlock p {
-    margin-top: 0;
-} */
-
 .subBlock {
     display: inline-block;
     overflow: hidden;
@@ -178,6 +174,13 @@ h4 {
     font-size: 0.8em;
     letter-spacing: 0.14em;
     font-style: italic;
+}
+
+.link {
+    font-size: 0.8em;
+    letter-spacing: 0.14em;
+    /* font-style: bold; */
+    font-weight: bold;
 }
 
 .bottomMargin {
