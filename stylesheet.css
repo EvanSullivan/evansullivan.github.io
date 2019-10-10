@@ -40,7 +40,6 @@ img {
 
 .white {
     color: white;
-    /*text-shadow: 0px 4px 18px rgba(0,0,0, 0.25);*/
 }
 
 .dividerBar.whiteBG {
@@ -76,32 +75,6 @@ img {
     letter-spacing: 0.1em;
 }
 
-h1 {
-    font-size: 2.6em;
-    letter-spacing: 0.03em;
-    font-weight: normal;
-    line-height: 1.2em;
-    margin: 0;
-}
-
-h2 {
-    font-size: 1.2em;
-    font-weight: normal;
-    margin-top: 0;
-    /* margin-bottom: 3.2em; */
-}
-
-h3 {
-    font-size: 0.65em;
-    margin-top: 1.6em;
-}
-
-h4 {
-    font-size: 0.8em;
-    letter-spacing: 0.14em;
-    font-style: italic;
-}
-
 .headerBar {
     width: 100%;
     position: fixed;
@@ -112,8 +85,9 @@ h4 {
     border-bottom: 1px solid #333333;
 }
 
-.headerBar h3 {
-    opacity: 1.0;
+.headerBarText {
+    font-size: 0.8em;
+    margin-top: 1.6em;
 }
 
 .headerMargins {
@@ -165,7 +139,18 @@ h4 {
 }
 
 .subtitle {
+    font-size: 1.2em;
+    font-weight: normal;
     margin-bottom: 0;
+    margin-top: 0;
+}
+
+.title {
+    font-size: 2.6em;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0;
 }
 
 .date {
@@ -179,7 +164,6 @@ h4 {
 .link {
     font-size: 0.8em;
     letter-spacing: 0.14em;
-    /* font-style: bold; */
     font-weight: bold;
 }
 
@@ -242,14 +226,6 @@ h4 {
 /*desktop scaling*/
 @media only screen and (max-width : 736px) {
 
-    h1 {
-        font-size: 2.0em;
-    }
-    
-    h4 {
-        text-align: center;
-    }
-
     .container {
         padding-top: 4em;
     }
@@ -274,14 +250,6 @@ h4 {
 
 /*mobile formatting*/
 @media only screen and (max-device-width : 736px) {
-
-    h1 {
-        font-size: 2.0em;
-    }
-
-    h4 {
-        text-align: center;
-    }
 
     .headerBar {
         font-size: 0.5em;
