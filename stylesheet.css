@@ -137,9 +137,9 @@ h4 {
     margin: auto;
 }
 
-.workBlock p {
+/* .workBlock p {
     margin-top: 0;
-}
+} */
 
 .subBlock {
     display: inline-block;
@@ -175,6 +175,9 @@ h4 {
 .date {
     text-align: left;
     margin-bottom: 0;
+    font-size: 0.8em;
+    letter-spacing: 0.14em;
+    font-style: italic;
 }
 
 .bottomMargin {
