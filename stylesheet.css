@@ -90,6 +90,11 @@ img {
     margin-top: 1.6em;
 }
 
+.footerBarText {
+    font-size: 0.5em;
+    margin: 0;
+}
+
 .headerMargins {
     margin-right: 1em;
     margin-left: 1em;
@@ -98,6 +103,7 @@ img {
 .footerBar {
     padding-bottom: 0.1em;
     border-top: 1px solid #333333;
+    margin-top: 2em;
 }
 
 .contentBlock {
@@ -252,7 +258,7 @@ img {
 @media only screen and (max-device-width : 736px) {
 
     .headerBar {
-        font-size: 0.5em;
+        visibility: hidden;
     }
 
     .container {
@@ -272,14 +278,14 @@ img {
         text-align: center;
     }
 
-    .headerBar {
-        position: relative;
+    .title {
+        font-size: 2em;
     }
 
     .footerBar {
-        padding-bottom: 0.5em;
+        margin-top: 3em;
     }
-
+    
     #profilePic {
         margin-top: 2em;
         max-width: auto;
