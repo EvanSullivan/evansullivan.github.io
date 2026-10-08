@@ -212,8 +212,8 @@ img {
 }
 
 #giftHub {
-    background: #FFD100;
-    background-image: linear-gradient(#FFD100, #FFB81C);
+    background: #F3E3A6;
+    background-image: linear-gradient(#F3E3A6, #E3CA82);
 }
 
 #eventsRSVP {
@@ -222,8 +222,8 @@ img {
 }
 
 #receipts {
-    background: #FFD100;
-    background-image: linear-gradient(#FFD100, #F2A900);
+    background: #F3E3A6;
+    background-image: linear-gradient(#F3E3A6, #DCC07A);
 }
 
 .statRow > .subBlock {
