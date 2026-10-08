@@ -212,18 +212,18 @@ img {
 }
 
 #giftHub {
-    background: #005587;
-    background-image: linear-gradient(#005587, #003B5C);
+    background: #FFD100;
+    background-image: linear-gradient(#FFD100, #FFB81C);
 }
 
 #eventsRSVP {
-    background: #003B5C;
-    background-image: linear-gradient(#003B5C, #00263D);
+    background: #2774AE;
+    background-image: linear-gradient(#2774AE, #003B5C);
 }
 
 #receipts {
-    background: #7DB8D1;
-    background-image: linear-gradient(hsl(203, 44%, 44%), hsl(203, 44%,25%));
+    background: #FFD100;
+    background-image: linear-gradient(#FFD100, #F2A900);
 }
 
 .statRow > .subBlock {
