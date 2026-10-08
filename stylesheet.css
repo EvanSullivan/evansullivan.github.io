@@ -231,7 +231,28 @@ img {
 }
 
 .subBlock.right.statBlock {
+    overflow: visible;
     text-align: center;
+}
+
+.statCard {
+    margin: 2em 0 2em 1.5em;
+    padding: 2em 1em;
+    border-radius: 1.2em;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0.6em 1.6em rgba(0, 0, 0, 0.25);
+}
+
+#giftHub .statCard,
+#receipts .statCard {
+    background: rgba(255, 255, 255, 0.45);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0.6em 1.6em rgba(120, 85, 0, 0.25);
+}
+
+.statLabel.allCaps {
+    font-size: 0.8em;
 }
 
 .statNumber {
@@ -309,6 +330,10 @@ img {
         max-width: auto;
         float: none;
     }
+
+    .statCard {
+        margin: 1.5em 0 2em 0;
+    }
 }
 
 /*mobile formatting*/
@@ -347,5 +372,9 @@ img {
         margin-top: 2em;
         max-width: auto;
         float: none;
+    }
+
+    .statCard {
+        margin: 1.5em 0 2em 0;
     }
 }
