@@ -235,7 +235,6 @@ img {
     padding: 2em 1em;
     border-radius: 1.2em;
     background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 0.6em 1.6em rgba(0, 0, 0, 0.25);
 }
 
@@ -243,7 +242,6 @@ img {
 #receipts .statCard {
     background: #F7DC7E;
     background-image: linear-gradient(#F7DC7E, #ECC55E);
-    border-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0.6em 1.6em rgba(0, 20, 40, 0.35);
 }
 
@@ -255,12 +253,47 @@ img {
 #giftHub .statCard {
     background: #2774AE;
     background-image: linear-gradient(#2774AE, #005587);
-    border-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0.6em 1.6em rgba(120, 85, 0, 0.3);
 }
 
 #giftHub .statCard p {
     color: white;
+}
+
+#auctions .subBlock,
+#giftHub .subBlock {
+    overflow: visible;
+}
+
+.statCard.inlineStat {
+    display: inline-block;
+    margin: 0.6em 0 0 0;
+    padding: 0.7em 1.2em;
+    border-radius: 0.9em;
+    text-align: left;
+}
+
+.statGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    margin-top: 0.6em;
+}
+
+.statGroup .statCard.inlineStat {
+    box-sizing: border-box;
+    flex: 1 1 8em;
+    margin: 0;
+}
+
+.inlineStat .statNumber {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.inlineStat .statLabel {
+    font-size: 0.85em;
+    margin: 0.3em 0 0 0;
 }
 
 .statLabel.allCaps {
