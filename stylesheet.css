@@ -136,12 +136,29 @@ img {
 
 .subBlock.left {
     width: 49%;
+    box-sizing: border-box;
     padding-top: 2em;
     padding-bottom: 2em;
+    padding-right: 1.2em;
 }
 
 .subBlock.right {
     width: 49%;
+    box-sizing: border-box;
+    padding-left: 1.8em;
+}
+
+/* wider work sections, larger share for screenshots */
+.workBlock .contentBlock {
+    max-width: 56em;
+}
+
+.workBlock .subBlock.left {
+    width: 42%;
+}
+
+.workBlock .subBlock.right {
+    width: 56%;
 }
 
 .dividerBar {
@@ -355,6 +372,11 @@ img {
 /*desktop scaling*/
 @media only screen and (max-width : 736px) {
 
+    .workBlock .subBlock.left,
+    .workBlock .subBlock.right {
+        width: 100%;
+    }
+
     .container {
         padding-top: 4em;
     }
@@ -362,10 +384,16 @@ img {
     .subBlock.left {
         width: 100%;
         padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    .statRow .subBlock.left {
+        padding-bottom: 3em;
     }
 
     .subBlock.right {
         width: 100%;
+        padding-left: 0;
         float: none;
         text-align: center;
     }
@@ -384,6 +412,11 @@ img {
 /*mobile formatting*/
 @media only screen and (max-device-width : 736px) {
 
+    .workBlock .subBlock.left,
+    .workBlock .subBlock.right {
+        width: 100%;
+    }
+
     .headerBar {
         visibility: hidden;
     }
@@ -398,9 +431,15 @@ img {
 
     .subBlock.left {
         padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    .statRow .subBlock.left {
+        padding-bottom: 3em;
     }
 
     .subBlock.right {
+        padding-left: 0;
         float: none;
         text-align: center;
     }
