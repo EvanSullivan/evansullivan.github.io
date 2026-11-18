@@ -231,6 +231,104 @@ img {
     float: right;
 }
 
+.employerRow {
+    margin-top: 2em;
+    padding-top: 1.2em;
+    border-top: 1px solid #DDDDDD;
+}
+
+.employerLabel {
+    font-size: 0.65em;
+    color: #999999;
+    margin: 0 0 0.6em 0;
+}
+
+.employerList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 1.8em;
+}
+
+.employerList li {
+    font-size: 1.05em;
+    letter-spacing: 0.04em;
+    color: #8A8A8A;
+}
+
+.employerIntro {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4em;
+    margin: 1.4em 0;
+}
+
+.employerIntro p {
+    margin: 0;
+    flex: 1;
+}
+
+.employerMark {
+    flex: 0 0 6.6em;
+    padding-top: 0.25em;
+}
+
+.employerLogo {
+    display: block;
+    height: 1.3em;
+    width: auto;
+}
+
+.employerLogoHonda {
+    height: 2em;
+    margin-top: -0.35em;
+}
+
+.employerWordmark {
+    display: block;
+    font-size: 0.95em;
+    line-height: 1.1em;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    color: #8A8A8A;
+}
+
+.contactBlock {
+    padding-top: 2.6em;
+    padding-bottom: 1.4em;
+}
+
+.contactTitle {
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+.contactIntro {
+    margin: 0.6em 0 1.8em 0;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2em 3.5em;
+}
+
+.contactLabel {
+    font-size: 0.65em;
+    color: #999999;
+    margin: 0 0 0.2em 0;
+}
+
+.contactItem a.blue {
+    color: #0C4D9B;
+}
+
 #auctions {
     background: #2774AE;
     background-image: linear-gradient(#2774AE, #005587);
@@ -329,10 +427,9 @@ img {
     margin: 0.4em 1em;
 }
 
-.earlierWork {
-    padding-top: 1.4em;
-    padding-bottom: 1em;
-    font-size: 0.9em;
+#dinnersFor12 {
+    background: #005587;
+    background-image: linear-gradient(#005587, #003B5C);
 }
 
 #hondaLink{
@@ -461,5 +558,22 @@ img {
 
     .statCard {
         margin: 1.5em 0 2em 0;
+    }
+}
+
+/* stack employer marks above their paragraphs on narrow screens */
+@media only screen and (max-width : 736px), only screen and (max-device-width : 736px) {
+    .employerIntro {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .employerMark {
+        flex: none;
+        padding-top: 0;
+    }
+
+    .contactTitle {
+        font-size: 1.6em;
     }
 }
